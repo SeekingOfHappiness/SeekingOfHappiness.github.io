@@ -40,7 +40,6 @@ header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: black; */
 }
 
 .social-media li {
@@ -58,13 +57,13 @@ header h2 {
 }
 
 .bio {
-    /* background-color: red; */
     width: 60%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .bio p {
