@@ -92,7 +92,6 @@ header h2 {
 
 /* ------------------- YouTube -------------------  */
 .youtube {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -110,4 +109,30 @@ header h2 {
 .youtube iframe {
     width: auto;
     height: 375px;
+}
+
+/* ------------------- Footer -------------------  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto;
+    margin-bottom: 0px;
+}
+
+footer h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+footer div {
+    margin-bottom: 15px;
+}
+
+footer img {
+    display: flex;
+    width: 30%;
+    margin: auto;
 }
